@@ -1,0 +1,238 @@
+[p LITE_MODE AUTOSTATIC PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1938 ]
+[d frameptr 6 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\strcat.c
+[v _strcat strcat `(*.4uc  1 e 1 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\strcpy.c
+[v _strcpy strcpy `(*.4uc  1 e 1 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"50 G:\ecorun_denki\Circuit_Program_Completed_20170622\LCD_Display.X\LCD_Display_Program.c
+[v _ISR ISR `II(v  1 e 1 0 ]
+"68
+[v _main main `(v  1 e 1 0 ]
+"124
+[v _read read `(v  1 e 1 0 ]
+"177
+[v _initializePort initializePort `(v  1 e 1 0 ]
+"13 G:\ecorun_denki\Circuit_Program_Completed_20170622\LCD_Display.X\LCD_Display_Sub.c
+[v _lcdBegin lcdBegin `(v  1 e 1 0 ]
+"63
+[v _lcdClear lcdClear `(v  1 e 1 0 ]
+"73
+[v _lcdSetCursor lcdSetCursor `(v  1 e 1 0 ]
+"93
+[v _lcdPrint lcdPrint `(v  1 e 1 0 ]
+"99
+[v _lcdCommand lcdCommand `T(v  1 e 1 0 ]
+"103
+[v _lcdWrite lcdWrite `T(v  1 e 1 0 ]
+"107
+[v _lcdSend lcdSend `(v  1 e 1 0 ]
+"124
+[v _lcdPulseEnable lcdPulseEnable `T(v  1 e 1 0 ]
+"427 C:\Program Files (x86)\Microchip\xc8\v1.42\include\pic16f1938.h
+[v _PORTA PORTA `VEuc  1 e 1 @12 ]
+"489
+[v _PORTB PORTB `VEuc  1 e 1 @13 ]
+"551
+[v _PORTC PORTC `VEuc  1 e 1 @14 ]
+"1226
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1288
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+"1350
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+"1849
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"3075
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"3133
+[v _ANSELB ANSELB `VEuc  1 e 1 @397 ]
+"3385
+[v _RCREG RCREG `VEuc  1 e 1 @409 ]
+"3437
+[v _SPBRG SPBRG `VEuc  1 e 1 @411 ]
+"3524
+[v _RCSTA RCSTA `VEuc  1 e 1 @413 ]
+"7204
+[v _BRG16 BRG16 `VEb  1 e 0 @3323 ]
+"7206
+[v _BRGH BRGH `VEb  1 e 0 @3314 ]
+"7502
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"7580
+[v _LATA0 LATA0 `VEb  1 e 0 @2144 ]
+"7582
+[v _LATA1 LATA1 `VEb  1 e 0 @2145 ]
+"7584
+[v _LATA2 LATA2 `VEb  1 e 0 @2146 ]
+"7596
+[v _LATB0 LATB0 `VEb  1 e 0 @2152 ]
+"7598
+[v _LATB1 LATB1 `VEb  1 e 0 @2153 ]
+"7600
+[v _LATB2 LATB2 `VEb  1 e 0 @2154 ]
+"7602
+[v _LATB3 LATB3 `VEb  1 e 0 @2155 ]
+"7604
+[v _LATB4 LATB4 `VEb  1 e 0 @2156 ]
+"7606
+[v _LATB5 LATB5 `VEb  1 e 0 @2157 ]
+"7608
+[v _LATB6 LATB6 `VEb  1 e 0 @2158 ]
+"7610
+[v _LATB7 LATB7 `VEb  1 e 0 @2159 ]
+"7686
+[v _OERR OERR `VEb  1 e 0 @3305 ]
+"7758
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"7848
+[v _RCIE RCIE `VEb  1 e 0 @1165 ]
+"7850
+[v _RCIF RCIF `VEb  1 e 0 @141 ]
+"8140
+[v _SYNC SYNC `VEb  1 e 0 @3316 ]
+"39 G:\ecorun_denki\Circuit_Program_Completed_20170622\LCD_Display.X\LCD_Display_Program.c
+[v _i i `i  1 e 2 0 ]
+"40
+[v _a a `i  1 e 2 0 ]
+[v _b b `i  1 e 2 0 ]
+[v _c c `i  1 e 2 0 ]
+"41
+[v _num1 num1 `i  1 e 2 0 ]
+[v _num2 num2 `i  1 e 2 0 ]
+[v _num3 num3 `i  1 e 2 0 ]
+"42
+[v _moji1 moji1 `[5]uc  1 e 5 0 ]
+"43
+[v _moji2 moji2 `[5]uc  1 e 5 0 ]
+"44
+[v _moji3 moji3 `[5]uc  1 e 5 0 ]
+"45
+[v _rx_flag rx_flag `uc  1 e 1 0 ]
+"47
+[v _rx_data rx_data `i  1 e 2 0 ]
+"68
+[v _main main `(v  1 e 1 0 ]
+{
+[s S35 _Lcd 10 `uc 1 DisplayFunction 1 0 `uc 1 DisplayControl 1 1 `uc 1 DisplayMode 1 2 `uc 1 DisplayCursor 1 3 `uc 1 NumLines 1 4 `uc 1 Cols 1 5 `[4]uc 1 RowOffsets 4 6 ]
+"95
+[v main@lcd lcd `S35  1 a 10 5 ]
+"120
+} 0
+"124
+[v _read read `(v  1 e 1 0 ]
+{
+"172
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\strcpy.c
+[v _strcpy strcpy `(*.4uc  1 e 1 0 ]
+{
+[v strcpy@to to `*.4uc  1 a 1 wreg ]
+"15
+[v strcpy@cp cp `*.4uc  1 a 1 6 ]
+"8
+[v strcpy@to to `*.4uc  1 a 1 wreg ]
+[v strcpy@from from `*.25DCCuc  1 p 2 3 ]
+"18
+[v strcpy@to to `*.4uc  1 a 1 7 ]
+"24
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\strcat.c
+[v _strcat strcat `(*.4uc  1 e 1 0 ]
+{
+[v strcat@to to `*.4uc  1 a 1 wreg ]
+"15
+[v strcat@cp cp `*.4uc  1 a 1 6 ]
+"8
+[v strcat@to to `*.4uc  1 a 1 wreg ]
+[v strcat@from from `*.26DCCuc  1 p 2 3 ]
+"18
+[v strcat@to to `*.4uc  1 a 1 7 ]
+"26
+} 0
+"73 G:\ecorun_denki\Circuit_Program_Completed_20170622\LCD_Display.X\LCD_Display_Sub.c
+[v _lcdSetCursor lcdSetCursor `(v  1 e 1 0 ]
+{
+[s S35 _Lcd 10 `uc 1 DisplayFunction 1 0 `uc 1 DisplayControl 1 1 `uc 1 DisplayMode 1 2 `uc 1 DisplayCursor 1 3 `uc 1 NumLines 1 4 `uc 1 Cols 1 5 `[4]uc 1 RowOffsets 4 6 ]
+[v lcdSetCursor@lcd lcd `*.4S35  1 a 1 wreg ]
+[v lcdSetCursor@lcd lcd `*.4S35  1 a 1 wreg ]
+[v lcdSetCursor@col col `uc  1 p 1 7 ]
+[v lcdSetCursor@line line `uc  1 p 1 8 ]
+[v lcdSetCursor@lcd lcd `*.4S35  1 a 1 1 ]
+"82
+} 0
+"93
+[v _lcdPrint lcdPrint `(v  1 e 1 0 ]
+{
+[v lcdPrint@str str `*.26uc  1 p 2 7 ]
+"97
+} 0
+"103
+[v _lcdWrite lcdWrite `T(v  1 e 1 0 ]
+{
+[v lcdWrite@val val `uc  1 a 1 wreg ]
+[v lcdWrite@val val `uc  1 a 1 wreg ]
+[v lcdWrite@val val `uc  1 a 1 6 ]
+"105
+} 0
+"63
+[v _lcdClear lcdClear `(v  1 e 1 0 ]
+{
+"66
+} 0
+"13
+[v _lcdBegin lcdBegin `(v  1 e 1 0 ]
+{
+[s S35 _Lcd 10 `uc 1 DisplayFunction 1 0 `uc 1 DisplayControl 1 1 `uc 1 DisplayMode 1 2 `uc 1 DisplayCursor 1 3 `uc 1 NumLines 1 4 `uc 1 Cols 1 5 `[4]uc 1 RowOffsets 4 6 ]
+[v lcdBegin@lcd lcd `*.4S35  1 a 1 wreg ]
+[v lcdBegin@lcd lcd `*.4S35  1 a 1 wreg ]
+[v lcdBegin@cols cols `uc  1 p 1 0 ]
+[v lcdBegin@lines lines `uc  1 p 1 1 ]
+[v lcdBegin@charsize charsize `uc  1 p 1 2 ]
+"15
+"13
+[v lcdBegin@lcd lcd `*.4S35  1 a 1 8 ]
+"61
+} 0
+"99
+[v _lcdCommand lcdCommand `T(v  1 e 1 0 ]
+{
+[v lcdCommand@com com `uc  1 a 1 wreg ]
+[v lcdCommand@com com `uc  1 a 1 wreg ]
+[v lcdCommand@com com `uc  1 a 1 6 ]
+"101
+} 0
+"107
+[v _lcdSend lcdSend `(v  1 e 1 0 ]
+{
+[v lcdSend@val val `uc  1 a 1 wreg ]
+[v lcdSend@val val `uc  1 a 1 wreg ]
+[v lcdSend@mode mode `uc  1 p 1 3 ]
+[v lcdSend@val val `uc  1 a 1 5 ]
+"122
+} 0
+"124
+[v _lcdPulseEnable lcdPulseEnable `T(v  1 e 1 0 ]
+{
+"131
+} 0
+"177 G:\ecorun_denki\Circuit_Program_Completed_20170622\LCD_Display.X\LCD_Display_Program.c
+[v _initializePort initializePort `(v  1 e 1 0 ]
+{
+"199
+} 0
+"50
+[v _ISR ISR `II(v  1 e 1 0 ]
+{
+"66
+} 0

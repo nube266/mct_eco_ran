@@ -1,0 +1,106 @@
+[p LITE_MODE AUTOSTATIC PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1823 ]
+[d frameptr 6 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.42\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"57 G:\ecorun_denki\Circuit_Program_Completed_20170622\SW_Control.X\SW_Control_Program.c
+[v _main main `(v  1 e 1 0 ]
+"130
+[v _Usart_data Usart_data `(v  1 e 1 0 ]
+"159
+[v _Bit4_data Bit4_data `(v  1 e 1 0 ]
+"427 C:\Program Files (x86)\Microchip\xc8\v1.42\include\pic16f1823.h
+[v _PORTA PORTA `VEuc  1 e 1 @12 ]
+"682
+[v _PORTC PORTC `VEuc  1 e 1 @14 ]
+"1489
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1539
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+"1947
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"3113
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"3160
+[v _ANSELC ANSELC `VEuc  1 e 1 @398 ]
+"3420
+[v _TXREG TXREG `VEuc  1 e 1 @410 ]
+"3452
+[v _SPBRG SPBRG `VEuc  1 e 1 @411 ]
+"3506
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @412 ]
+[s S28 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"3556
+[u S37 . 1 `S28 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES37  1 e 1 @413 ]
+"3601
+[v _TXSTA TXSTA `VEuc  1 e 1 @414 ]
+[s S49 . 1 `uc 1 ABDEN 1 0 :1:0 
+`uc 1 WUE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG16 1 0 :1:3 
+`uc 1 SCKP 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 RCIDL 1 0 :1:6 
+`uc 1 ABDOVF 1 0 :1:7 
+]
+"3680
+[u S58 . 1 `S49 1 . 1 0 ]
+[v _BAUDCONbits BAUDCONbits `VES58  1 e 1 @415 ]
+"6183
+[v _RA2 RA2 `VEb  1 e 0 @98 ]
+"6185
+[v _RA3 RA3 `VEb  1 e 0 @99 ]
+"6187
+[v _RA4 RA4 `VEb  1 e 0 @100 ]
+"6189
+[v _RA5 RA5 `VEb  1 e 0 @101 ]
+"6191
+[v _RC0 RC0 `VEb  1 e 0 @112 ]
+"6193
+[v _RC1 RC1 `VEb  1 e 0 @113 ]
+"6195
+[v _RC2 RC2 `VEb  1 e 0 @114 ]
+"6197
+[v _RC3 RC3 `VEb  1 e 0 @115 ]
+"6199
+[v _RC4 RC4 `VEb  1 e 0 @116 ]
+"6469
+[v _TXCKSEL TXCKSEL `VEb  1 e 0 @2282 ]
+"6475
+[v _TXIF TXIF `VEb  1 e 0 @140 ]
+"41 G:\ecorun_denki\Circuit_Program_Completed_20170622\SW_Control.X\SW_Control_Program.c
+[v _tx_data tx_data `i  1 e 2 0 ]
+"54
+[v _tx_before tx_before `i  1 e 2 0 ]
+"57
+[v _main main `(v  1 e 1 0 ]
+{
+"128
+} 0
+"130
+[v _Usart_data Usart_data `(v  1 e 1 0 ]
+{
+"157
+} 0
+"159
+[v _Bit4_data Bit4_data `(v  1 e 1 0 ]
+{
+"194
+} 0
